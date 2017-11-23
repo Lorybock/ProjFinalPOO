@@ -89,11 +89,12 @@ class GameController: UIViewController, UITextFieldDelegate, UIPopoverController
     
     @objc func counter() {
         contT -= 1
-        if(contT == 0){
+        if(contT <= 0){
             //ACABOU
-            self.labelDicas.text = "ACABOU"
             timer.invalidate()
+            self.labelDicas.text = "ACABOU"
             self.performSegue(withIdentifier: "PopupViewController", sender: self)
+            
         }
         if(contT > 9 || contT < 0){
             labelTime.text = "\(contT)"
@@ -108,7 +109,7 @@ class GameController: UIViewController, UITextFieldDelegate, UIPopoverController
             let popup:PopupViewController = segue.destination as! PopupViewController
             popup.delegate = self
             popup.quantAcertado = qt
-            popup.tempo = Int(labelTime.text!)!
+            popup.tempo = contT
             popup.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
             popup.view.backgroundColor = UIColor.black.withAlphaComponent(0.7)
         }
@@ -120,11 +121,11 @@ class GameController: UIViewController, UITextFieldDelegate, UIPopoverController
            self.labelDicas.text = "VAZIO"
         }else{
             if(ts[qt].testResp(resp: TextFieldResp.text!)){
-//                self.labelDicas.text = "ACERTOU"
                 qt+=1
                 self.labelQuestionTrivia.text = "\(qt+1)/10"
                 TextFieldResp.text = ""
                 if(qt < 10){
+                    //ACERTOU - GET NOVA TRIVIA
                    getNewTrivia()
                 }else{
                 //VENCEU
@@ -133,8 +134,13 @@ class GameController: UIViewController, UITextFieldDelegate, UIPopoverController
                     self.performSegue(withIdentifier: "PopupViewController", sender: self)
                 }
             }else{
-//                self.labelDicas.text = "Errou"
-                contT-=3;
+                //ERROU
+                if((contT-3) <= 0){
+                    contT = 1
+                }else{
+                    contT-=3;
+                }
+                
             }
         }
         return true
