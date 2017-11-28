@@ -39,6 +39,9 @@ class GameController: UIViewController, UITextFieldDelegate, UIPopoverController
 //        self.TextFieldResp.delegate = self
     }
     
+    override var prefersStatusBarHidden: Bool{
+        return true
+    }
 
     
     @IBAction func getMoreDicas(_ sender: Any) {
@@ -62,14 +65,14 @@ class GameController: UIViewController, UITextFieldDelegate, UIPopoverController
         self.labelDicas.text = dicas
         createTrivia()
         time();
-        contT = 10
+        contT = 15
         labelTime.text = "\(contT)"
         self.labelQuestionTrivia.text = "\(qt+1)/10"
     }
     
     
     func getTrivia() {
-        contT -= 5
+        contT -= 3
         self.dicas += (ts[qt].getDicas(numDica: self.cont))
         self.labelDicas.text = dicas
         self.cont+=1
@@ -135,10 +138,10 @@ class GameController: UIViewController, UITextFieldDelegate, UIPopoverController
                 }
             }else{
                 //ERROU
-                if((contT-3) <= 0){
+                if((contT-5) <= 0){
                     contT = 1
                 }else{
-                    contT-=3;
+                    contT-=5;
                 }
                 
             }

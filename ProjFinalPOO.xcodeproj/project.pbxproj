@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		337AADE51FC3269B00AF3A08 /* CreateTrivias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337AADE41FC3269B00AF3A08 /* CreateTrivias.swift */; };
 		337AADE71FC38C0B00AF3A08 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337AADE61FC38C0B00AF3A08 /* PopupViewController.swift */; };
+		337AADEA1FCCF1BE00AF3A08 /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AADE91FCCF1BD00AF3A08 /* BG.png */; };
+		337AADEC1FCCF27E00AF3A08 /* bt.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AADEB1FCCF27E00AF3A08 /* bt.png */; };
+		337AADEE1FCCF31000AF3A08 /* fundo.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AADED1FCCF30F00AF3A08 /* fundo.png */; };
+		337AADF01FCCF37200AF3A08 /* fundo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AADEF1FCCF37200AF3A08 /* fundo2.png */; };
+		337AADF21FCCF3EE00AF3A08 /* detalhe.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AADF11FCCF3ED00AF3A08 /* detalhe.png */; };
+		337AADF41FCCF57800AF3A08 /* bt2.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AADF31FCCF57700AF3A08 /* bt2.png */; };
+		337AADF61FCCF5D100AF3A08 /* bt_mais.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AADF51FCCF5D100AF3A08 /* bt_mais.png */; };
+		337AADF81FCCF62400AF3A08 /* bt_v.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AADF71FCCF62400AF3A08 /* bt_v.png */; };
+		337AADFA1FCCF6CB00AF3A08 /* fundo_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AADF91FCCF6CB00AF3A08 /* fundo_l.png */; };
 		33EFBC6B1FC1058B00CCD6A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EFBC6A1FC1058B00CCD6A4 /* AppDelegate.swift */; };
 		33EFBC6D1FC1058B00CCD6A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EFBC6C1FC1058B00CCD6A4 /* ViewController.swift */; };
 		33EFBC701FC1058B00CCD6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33EFBC6E1FC1058B00CCD6A4 /* Main.storyboard */; settings = {ASSET_TAGS = (Popup, ); }; };
@@ -41,6 +50,15 @@
 /* Begin PBXFileReference section */
 		337AADE41FC3269B00AF3A08 /* CreateTrivias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTrivias.swift; sourceTree = "<group>"; };
 		337AADE61FC38C0B00AF3A08 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		337AADE91FCCF1BD00AF3A08 /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		337AADEB1FCCF27E00AF3A08 /* bt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt.png; sourceTree = "<group>"; };
+		337AADED1FCCF30F00AF3A08 /* fundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundo.png; sourceTree = "<group>"; };
+		337AADEF1FCCF37200AF3A08 /* fundo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundo2.png; sourceTree = "<group>"; };
+		337AADF11FCCF3ED00AF3A08 /* detalhe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detalhe.png; sourceTree = "<group>"; };
+		337AADF31FCCF57700AF3A08 /* bt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt2.png; sourceTree = "<group>"; };
+		337AADF51FCCF5D100AF3A08 /* bt_mais.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_mais.png; sourceTree = "<group>"; };
+		337AADF71FCCF62400AF3A08 /* bt_v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_v.png; sourceTree = "<group>"; };
+		337AADF91FCCF6CB00AF3A08 /* fundo_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundo_l.png; sourceTree = "<group>"; };
 		33EFBC671FC1058B00CCD6A4 /* ProjFinalPOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjFinalPOO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EFBC6A1FC1058B00CCD6A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33EFBC6C1FC1058B00CCD6A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		337AADE81FCCF1A700AF3A08 /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				337AADF91FCCF6CB00AF3A08 /* fundo_l.png */,
+				337AADF71FCCF62400AF3A08 /* bt_v.png */,
+				337AADF51FCCF5D100AF3A08 /* bt_mais.png */,
+				337AADF31FCCF57700AF3A08 /* bt2.png */,
+				337AADF11FCCF3ED00AF3A08 /* detalhe.png */,
+				337AADEF1FCCF37200AF3A08 /* fundo2.png */,
+				337AADED1FCCF30F00AF3A08 /* fundo.png */,
+				337AADEB1FCCF27E00AF3A08 /* bt.png */,
+				337AADE91FCCF1BD00AF3A08 /* BG.png */,
+			);
+			path = Imagens;
+			sourceTree = "<group>";
+		};
 		33EFBC5E1FC1058B00CCD6A4 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +141,7 @@
 		33EFBC691FC1058B00CCD6A4 /* ProjFinalPOO */ = {
 			isa = PBXGroup;
 			children = (
+				337AADE81FCCF1A700AF3A08 /* Imagens */,
 				33EFBC6A1FC1058B00CCD6A4 /* AppDelegate.swift */,
 				33EFBC6C1FC1058B00CCD6A4 /* ViewController.swift */,
 				33EFBC6E1FC1058B00CCD6A4 /* Main.storyboard */,
@@ -250,9 +285,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337AADF01FCCF37200AF3A08 /* fundo2.png in Resources */,
+				337AADFA1FCCF6CB00AF3A08 /* fundo_l.png in Resources */,
+				337AADEC1FCCF27E00AF3A08 /* bt.png in Resources */,
 				33EFBC781FC1058B00CCD6A4 /* LaunchScreen.storyboard in Resources */,
+				337AADF41FCCF57800AF3A08 /* bt2.png in Resources */,
+				337AADEE1FCCF31000AF3A08 /* fundo.png in Resources */,
 				33EFBC751FC1058B00CCD6A4 /* Assets.xcassets in Resources */,
+				337AADF21FCCF3EE00AF3A08 /* detalhe.png in Resources */,
+				337AADF61FCCF5D100AF3A08 /* bt_mais.png in Resources */,
+				337AADEA1FCCF1BE00AF3A08 /* BG.png in Resources */,
 				33EFBC701FC1058B00CCD6A4 /* Main.storyboard in Resources */,
+				337AADF81FCCF62400AF3A08 /* bt_v.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

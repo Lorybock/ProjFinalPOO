@@ -28,7 +28,7 @@ class PopupViewController: UIViewController {
         
         if(self.quantAcertado == 10){
             self.labelPrincipal.text = "Ganhou!"
-            btJogo.setTitle("Proxima Fase", for: .normal)
+            btJogo.setTitle("Proximo", for: .normal)
         }else{
             labelPrincipal.text = "Perdeu!"
         }
